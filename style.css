@@ -1,0 +1,418 @@
+        * {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: "arial narrow";
+        }
+        
+        header {
+            position: fixed;
+            display: flex;
+            padding: 10px;
+            height: 60px;
+            width: 100vw;
+            background-image: url(assets/header-background.jpg);
+            background-size: cover;
+            background-position-y: 470px;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            border-bottom: 1px grey solid;
+            z-index: 9999;
+            overflow: hidden;
+        }
+        
+        #header-right {
+            width: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            color: white;
+            text-shadow: 1px 1px 2px black;
+        }
+        
+        #header-right h1 a {
+            margin-right: 20px;
+            color: white;
+            text-shadow: 1px 1px 2px black;
+            text-decoration: none;
+        }
+        
+        #jumbotron {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            background-image: url(assets/jumbotron-macet.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            z-index: 9;
+        }
+        
+        #jumbotron-cover {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-size: cover;
+            background-attachment: fixed;
+            z-index: 10;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+        
+        #jumbotron-cover h1 {
+            background-color: rgba(255, 255, 255, 0.5);
+            font-size: 50px;
+            padding: 100px;
+        }
+        
+        #bahaya-macet {
+            padding: 40px;
+            padding-left: 0;
+            padding-right: 0;
+            margin-right: 0;
+            margin-left: 0;
+        }
+        
+        .article-macet {
+            border-bottom: grey 1px solid;
+            display: flex;
+            height: 200px;
+            background-color: #e5dfdf;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+        }
+        
+        .text {
+            width: 50%;
+        }
+        
+        .picture {
+            height: 100%;
+            width: 50%;
+            overflow: hidden;
+            background-position: center;
+        }
+        
+        .picture#satu {
+            background-image: url(assets/macet-1.jpg);
+            background-position-y: 0px;
+        }
+        
+        .picture#dua {
+            background-image: url(assets/macet-2.jpg);
+        }
+        
+        .picture#tiga {
+            background-image: url(assets/macet-3.jpg);
+            background-position-y: -120px;
+        }
+        
+        .picture#empat {
+            background-image: url(assets/macet-4.jpg);
+        }
+        
+        .article-macet p {
+            padding: 20px;
+            margin: 10px;
+        }
+        
+        #big-picture {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            background-image: url(assets/transportasi-umum.jpg);
+            background-size: cover;
+            background-position-y: 800px;
+            background-attachment: fixed;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            z-index: 11;
+        }
+        
+        #big-picture-text {
+            background-color: rgba(255, 255, 255, 0.5);
+            font-size: 30px;
+            padding: 100px;
+            margin: 100px;
+        }
+        
+        #transportation {
+            display: flex;
+            height: 500px;
+            width: 100%;
+            background-color: #e5dfdf;
+            padding: 20px;
+            justify-content: space-evenly;
+            overflow: visible;
+            z-index: 1000;
+        }
+        
+        .transportation-card {
+            height: 100%;
+            width: 100%;
+            padding: 10px;
+            margin: 10px;
+            background-color: white;
+            border: 2px solid black;
+        }
+        
+        #busway {
+            height: 100%;
+            width: 100%;
+            background-image: url(assets/busway.jpg);
+            background-size: cover;
+            background-position-x: -120px;
+        }
+        
+        #krl {
+            height: 100%;
+            width: 100%;
+            background-image: url(assets/krl.jpg);
+            background-size: cover;
+            background-position-x: -50px;
+        }
+        
+        #mrt {
+            height: 100%;
+            width: 100%;
+            background-image: url(assets/mrt.jpg);
+            background-size: cover;
+            background-position-x: -150px;
+        }
+        
+        footer {
+            height: 200px;
+            width: 100%;
+            background-color: #1d4d4f;
+            color: white;
+            display: flex;
+            padding: 50px;
+            padding-bottom: 0;
+            overflow: hidden;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        /* BUSWAY */
+        
+        #busway-jumbotron {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            background-image: url(assets/busway-headline.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-position-y: -210px;
+            z-index: 9;
+        }
+        
+        #busway-jumbotron-cover {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-size: cover;
+            background-attachment: fixed;
+            z-index: 10;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+        
+        #busway-jumbotron-cover h1 {
+            background-color: rgba(255, 255, 255, 0.5);
+            font-size: 50px;
+            padding: 100px;
+        }
+        
+        .sejarah {
+            display: flex;
+            width: 100vw;
+            height: 50px;
+            padding: 20px;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid black;
+            overflow-y: hidden;
+        }
+        
+        .map {
+            display: flex;
+            justify-content: center;
+            background-color: #357376;
+        }
+        
+        .picture#b-satu {
+            background-image: url(assets/logo-transjakarta.png);
+            background-repeat: no-repeat;
+        }
+        
+        .picture#b-satu-alter {
+            background-image: url(assets/logo-transjakarta-alter.png);
+            background-repeat: no-repeat;
+            background-size: 22%;
+        }
+        
+        .picture#b-dua {
+            background-image: url(assets/busway-masuk.jpg);
+        }
+        
+        .picture#b-tiga {
+            background-image: url(assets/busway-melonjak.jpg);
+            background-size: 110%;
+        }
+        
+        .picture#b-empat {
+            background-image: url(assets/busway-jak.jpg);
+            background-size: 100%;
+        }
+        /* KRL */
+        
+        #krl-jumbotron {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            background-image: url(assets/krl-headline.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-position-y: -150px;
+            z-index: 9;
+        }
+        
+        #krl-jumbotron-cover {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-size: cover;
+            background-attachment: fixed;
+            z-index: 10;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+        
+        #krl-jumbotron-cover h1 {
+            background-color: rgba(255, 255, 255, 0.5);
+            font-size: 50px;
+            padding: 100px;
+        }
+        
+        .picture#k-satu {
+            background-image: url(assets/logo-kai.png);
+            background-repeat: no-repeat;
+            background-size: 45%;
+        }
+        
+        .picture#k-satu-alter {
+            background-image: url(assets/logo-krl.png);
+            background-repeat: no-repeat;
+            background-size: 80%;
+        }
+        
+        .picture#k-dua {
+            background-image: url(assets/krl-nunggu.jpg);
+            background-position-y: -150px;
+        }
+        
+        .picture#k-tiga {
+            background-image: url(assets/krl-peron.jpg);
+            background-size: 110%;
+        }
+        
+        .picture#k-empat {
+            background-image: url(assets/krl-cikarang.jpg);
+            background-size: 100%;
+        }
+        /* MRT */
+        
+        #mrt-jumbotron {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            background-image: url(assets/mrt-headline.jpeg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-position-y: -400px;
+            z-index: 9;
+        }
+        
+        #mrt-jumbotron-cover {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-size: cover;
+            background-attachment: fixed;
+            z-index: 10;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+        
+        #mrt-jumbotron-cover h1 {
+            background-color: rgba(255, 255, 255, 0.5);
+            font-size: 50px;
+            padding: 100px;
+        }
+        
+        .picture#m-satu {
+            background-image: url(assets/mrt-pintu.jpg);
+            background-repeat: no-repeat;
+        }
+        
+        .picture#m-satu-alter {
+            background-image: url(assets/mrt-logo.png);
+            background-repeat: no-repeat;
+            background-size: 50%;
+        }
+        
+        .picture#m-dua {
+            background-image: url(assets/mrt-stasiun.jpg);
+            background-size: 110%;
+            background-position-y: bottom;
+        }
+        
+        .picture#m-tiga {
+            background-image: url(assets/mrt-publik.jpg);
+            background-size: 100%;
+        }
+        
+        .picture#m-empat {
+            background-image: url(assets/mrt-last.jpg);
+            background-size: 100%;
+        }
+        
+        #footer-left {
+            width: 25%;
+            text-align: left;
+        }
+        
+        #footer-right {
+            width: 75%;
+            text-align: right;
+            margin-bottom: auto;
+            margin-top: auto;
+        }
+        
+        main {
+            background-color: #6ba8a9;
+        }
+        
+        #transport-busway:hover {
+            transform: scale(1.2);
+        }
+        
+        #transport-krl:hover {
+            transform: scale(1.2);
+        }
+        
+        #transport-mrt:hover {
+            transform: scale(1.2);
+        }
